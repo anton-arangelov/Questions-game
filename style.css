@@ -1,0 +1,87 @@
+body{
+    font-size: 15px; 
+    background-color:floralwhite;
+}
+
+.question{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:darkslategrey;
+    margin-top: 5%;
+}
+
+.btn{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 1.3%;
+    color:black;
+    cursor: pointer;
+    border: none;
+    background-color: floralwhite;
+    width: 100%;
+    
+}
+.answer_1{
+    margin-top: 35px;
+    
+}
+
+.answer_2{
+    margin-top: 35px;
+}
+
+.answer_3{
+    margin-top: 35px;
+}
+
+.answer_4{
+    margin-top: 35px;
+}
+.result{
+    font-size: 30px;
+    width: 105%;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+}
+
+.info{
+    font-size: 30px;
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    justify-content: center;
+    position: fixed;
+}
+
+.ss_btn{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(202, 139, 14);
+    justify-content: center;
+    margin-left: 44.5%;
+    bottom: 10%;
+    font-size: 40px;
+    border-radius: 60%;
+    position: fixed;
+
+}
+
+.btn:hover{
+    text-decoration: rgb(38, 39, 41) underline;
+}
+
+.ss_btn:hover{
+    border-bottom: rgb(0, 183, 255) solid;
+
+}
+.ss_btn:focus, .btn:focus{
+    outline: none;
+}
+
+.ss_btn:active{ 
+    transform: translateY(2px); 
+}
